@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MemesApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#01D04E</item>
+    </style>
+<!--    for task1-->
+    <style name="Theme.MemesApp" parent="Base.Theme.MemesApp" />
+<!--    for task2-->
+    <style name="Theme.Task2" parent="Base.Theme.MemesApp">
+        <item name="android:statusBarColor">@color/task2primary</item>
+    </style>
+<!--    for bottoNav animation-->
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator"
+        >
+        <item name="android:color">@color/task2secondary</item>
+    </style>
+
+    <!--        for task3-->
+    <style name="Theme.Task3" parent="Base.Theme.MemesApp">
+        <item name="android:statusBarColor">@color/task3primarycolor</item>
+    </style>
+
+
+</resources>

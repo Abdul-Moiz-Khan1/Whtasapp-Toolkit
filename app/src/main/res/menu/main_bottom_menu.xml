@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/sticker"
+        android:icon="@drawable/sticker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Sticker" />
+    <item
+        android:id="@+id/memes"
+        android:icon="@drawable/meme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Memes" />
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/saved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Save" />
+</menu>

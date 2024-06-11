@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "899744573700",
+    "project_id": "nextsol-pdf",
+    "storage_bucket": "nextsol-pdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899744573700:android:53ce63f48b779befa2c851",
+        "android_client_info": {
+          "package_name": "com.example.memesapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC05rEVvl4WJB1Eswc-W2knb5kqVzwWn34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

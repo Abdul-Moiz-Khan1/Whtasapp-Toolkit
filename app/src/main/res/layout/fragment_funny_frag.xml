@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    tools:context=".funny_frag"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.helper.widget.Flow
+                android:id="@+id/flow"
+                android:layout_width="420dp"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                app:constraint_referenced_ids="linearLayout,linearLayout2,linearLayout3,linearLayout4,linearLayout5,linearLayout6,linearLayout7,linearLayout8,linearLayout9"
+                app:flow_maxElementsWrap="3"
+                app:flow_wrapMode="chain"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="125dp"
+                android:layout_height="175dp"
+                android:background="@drawable/cardback"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/image21View3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+
+                    app:srcCompat="@drawable/heart" />
+
+                <ImageView
+
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+
+                    app:srcCompat="@drawable/insta1" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="Scared"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="125dp"
+                android:layout_height="175dp"
+                android:background="@drawable/cardback"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/imageVi2ew3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+
+                    app:srcCompat="@drawable/heart" />
+
+                <ImageView
+
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+
+
+                    app:srcCompat="@drawable/insta2" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="IronMan"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="125dp"
+                android:layout_height="175dp"
+                android:background="@drawable/cardback"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+
+                    app:srcCompat="@drawable/heart" />
+
+                <ImageView
+
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+
+
+                    app:srcCompat="@drawable/trend10" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="Frost"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="125dp"
+                android:layout_height="175dp"
+                android:background="@drawable/cardback"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/image21V2iew3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+
+                    app:srcCompat="@drawable/heart" />
+
+                <ImageView
+
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+
+                    app:srcCompat="@drawable/temp2" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="Pooh"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="125dp"
+                android:layout_height="175dp"
+                android:background="@drawable/cardback"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/image21V12iew3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+
+                    app:srcCompat="@drawable/heart" />
+
+                <ImageView
+
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+
+                    app:srcCompat="@drawable/trend6" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="Silence"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="125dp"
+                android:layout_height="175dp"
+                android:background="@drawable/cardback"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/ima12ge21View3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+
+                    app:srcCompat="@drawable/heart" />
+
+                <ImageView
+
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+
+                    app:srcCompat="@drawable/insta7" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="Smile"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="125dp"
+                android:layout_height="175dp"
+                android:background="@drawable/cardback"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/ima2iew3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+
+                    app:srcCompat="@drawable/heart" />
+
+                <ImageView
+
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+
+                    app:srcCompat="@drawable/temp1" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="Yes/No"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="125dp"
+                android:layout_height="175dp"
+                android:background="@drawable/cardback"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/imaiew3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+
+                    app:srcCompat="@drawable/heart" />
+
+                <ImageView
+
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+
+                    app:srcCompat="@drawable/insta8" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="Eyes"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout9"
+                android:layout_width="125dp"
+                android:layout_height="175dp"
+                android:background="@drawable/cardback"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/ima12ge212View3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+
+                    app:srcCompat="@drawable/heart" />
+
+                <ImageView
+
+                    android:layout_width="125dp"
+                    android:layout_height="130dp"
+
+                    app:srcCompat="@drawable/trend5" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="Politics"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

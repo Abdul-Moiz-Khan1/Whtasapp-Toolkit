@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="appgreen">#01D04E</color>
+    <color name="task2primary">#0A2634</color>
+    <color name="task2secondary">#2D3D4C</color>
+
+    <color name="task3primarycolor">#00BFA0</color>
+    <color name="task3apptext">#1F1F1F</color>
+</resources>

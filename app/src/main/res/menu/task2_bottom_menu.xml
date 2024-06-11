@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/charge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/charging"
+        android:title="Charging"
+        />
+    <item
+        android:id="@+id/battery"
+        android:icon="@drawable/battery_bottombar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Battery Info" />
+    <item
+        android:id="@+id/phone"
+        android:icon="@drawable/mobile_bottombar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Scan Phone" />
+    <item
+        android:id="@+id/clean"
+        android:icon="@drawable/database_bottombar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Clean Phone" />
+    <item
+        android:id="@+id/chargestatus"
+        android:icon="@drawable/charging_bottombar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Charging" />
+</menu>
